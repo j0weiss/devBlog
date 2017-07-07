@@ -1,0 +1,23 @@
+baseURL = "http://192.168.178.38"
+languageCode = "en-us"
+title = "The simple devBlog!"
+
+theme = "hemingway2"
+
+[params]
+
+[params.highlight]
+style = "github"
+languages = ["go", "dockerfile"]
+
+[[params.social]]
+url = "https://github.com/j0weiss"
+fa_icon = "fa-github"
+
+[[params.social]]
+url = "https://twitter.com/j0weiss"
+fa_icon = "fa-twitter"
+
+[[params.social]]
+url = "/index.xml"
+fa_icon = "fa-rss"
