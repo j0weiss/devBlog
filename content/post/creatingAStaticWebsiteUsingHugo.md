@@ -61,4 +61,4 @@ workspace/devBlog $ hugo server
 
 Then you will find your blog under the URL [http://localhost:1313/](http://localhost:1313/).
 
-Congratulations! You started to write your first blog using [Hugo](https://gohugo.io/).
+*Congratulations! You started to write your first blog using [Hugo](https://gohugo.io/).*
