@@ -7,19 +7,19 @@ While I am starting this blog I am using [Hugo](https://gohugo.io/) and therefor
 
 If you are on a Mac you can easily install Hugo via `brew`:
 
-```sh
+```
 brew install hugo
 ```
 
 Then go to your workspace and simply type
 
-```sh
+```
 workspace $ hugo new site devBlog
 ```
 
 This creates a directory called `devblog` and the following structure
 
-```sh
+```
 ├── archetypes
 ├── config.toml
 ├── content
@@ -31,13 +31,13 @@ This creates a directory called `devblog` and the following structure
 
 Creating your first content is as simple as creating a new site. Just type
 
-```sh
+```
 workspace/devBlog $ hugo new post/my-first-post.md
 ```
 
 and Hugo creates the file `my-first-post.md` in the folder `content/post` which has the following content
 
-```markdown
+```
 ---
 title: "My First Post"
 date: 2017-07-06T21:49:25+02:00
@@ -49,13 +49,13 @@ You can start writing your content in that file and you are done. Almost. To see
 
 When you have chosen a theme clone it into the themes directory. I use `git submodule` for git repositories in another repository to keep everything clean. So you would type the following command in your console:
 
-```sh
+```
 workspace/devBlog/themes $ git submodule add <git-repository-url-of-your-chosen-theme>
 ```
 
 Now you are almost done. To see your blog you can start the built in server of hugo by running the command:
 
-```sh
+```
 workspace/devBlog $ hugo server
 ```
 
