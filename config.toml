@@ -1,23 +1,55 @@
-baseURL = "http://j0weiss.de"
+baseURL = "http://j0weiss.de/"
 languageCode = "en-us"
 title = "The simple devBlog!"
-
-theme = "hemingway2"
+theme = "minimal"
 
 [params]
+    author = "Johannes Weiß"
+    description = ""
+    githubUsername = "#"
+    accent = "red"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Quicksand" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "github"
+    highlightLanguages = ["shell", "haskell", "kotlin", "scala", "swift"]
 
-[params.highlight]
-style = "github"
-languages = ["go", "dockerfile"]
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
 
-[[params.social]]
-url = "https://github.com/j0weiss"
-fa_icon = "fa-github"
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 2
 
-[[params.social]]
-url = "https://twitter.com/j0weiss"
-fa_icon = "fa-twitter"
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 3
 
-[[params.social]]
-url = "/index.xml"
-fa_icon = "fa-rss"
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+# [[menu.icon]]
+#     url = "mailto:me@example.com"
+#     name = "envelope-o"
+#     weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/j0weiss/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/j0weiss/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://stackoverflow.com/users/4238964/j0weiss"
+    name = "stack-overflow"
+    weight = 5
