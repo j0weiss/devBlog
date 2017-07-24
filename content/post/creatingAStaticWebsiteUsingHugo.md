@@ -1,6 +1,7 @@
 ---
 title: "Creating a static website using Hugo"
 date: 2017-07-05T21:51:52+02:00
+tags: ["hugo"]
 ---
 
 While I am starting this blog I am using [Hugo](https://gohugo.io/) and therefore my first series is about *Creating a static website using Hugo*.
