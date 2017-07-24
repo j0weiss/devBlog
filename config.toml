@@ -6,7 +6,7 @@ theme = "minimal"
 [params]
     author = "Johannes Weiß"
     description = ""
-    githubUsername = "#"
+    githubUsername = "j0weiss"
     accent = "steelblue"
     showBorder = false
     backgroundColor = "white"
