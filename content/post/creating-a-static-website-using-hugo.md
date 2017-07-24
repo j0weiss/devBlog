@@ -38,7 +38,7 @@ $ hugo new post/my-first-post.md
 
 and Hugo creates the file `my-first-post.md` in the folder `content/post` which has the following content
 
-```markdown
+```plain
 ---
 title: "My First Post"
 date: 2017-07-06T21:49:25+02:00
