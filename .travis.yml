@@ -11,3 +11,7 @@ install:
 script:
   - hugo
   - docker build -t j0weiss/devblog .
+
+after_success:
+  - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+  - docker push j0weiss/devBlog
