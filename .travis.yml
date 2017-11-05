@@ -1,0 +1,11 @@
+sudo: required
+
+language: go
+
+services:
+  - docker
+
+before_install:
+  - sudo apt-get -qq hugo
+  - hugo
+  - docker build -t j0weiss/devblog .

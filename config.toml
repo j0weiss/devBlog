@@ -1,4 +1,4 @@
-baseURL = "http://j0weiss.de/"
+baseURL = "http://localhost:80/"
 languageCode = "en-us"
 title = "The simple devBlog!"
 theme = "minimal"
