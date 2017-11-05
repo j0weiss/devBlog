@@ -5,7 +5,9 @@ language: go
 services:
   - docker
 
-before_install:
-  - sudo apt-get install -qq hugo
+install:
+  - go get -v github.com/gohugoio/hugo
+
+script:
   - hugo
   - docker build -t j0weiss/devblog .
