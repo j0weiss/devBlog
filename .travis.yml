@@ -6,6 +6,6 @@ services:
   - docker
 
 before_install:
-  - sudo apt-get -qq hugo
+  - sudo apt-get install -qq hugo
   - hugo
   - docker build -t j0weiss/devblog .
