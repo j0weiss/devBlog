@@ -1,5 +1,5 @@
 FROM debian:stretch
-MAINTAINER weiss_johannes@icloud.com
+MAINTAINER https://github.com/j0weiss
 
 # Install hugo
 RUN apt-get update
